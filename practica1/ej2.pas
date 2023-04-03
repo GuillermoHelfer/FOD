@@ -21,6 +21,7 @@ begin
 			writeln(nro);
 	end;
 	writeln('el promedio de los numeros ingresados es: ', suma/cant:0:2);
+	close(arc_log);
 	{close(arc_log);}
 end;
 
@@ -29,7 +30,7 @@ Var
 	arc_log: archivo;
 	arc_fis: string[12];
 	nro: integer;
-
+	aux: integer;
 BEGIN
 	writeln('ingrese el nombre del archivo');
 	read(arc_fis);
@@ -40,6 +41,6 @@ BEGIN
 		write(arc_log, nro); {se escribe en el archivo cada numero}
 		read(nro);
 	end;
+	Close(arc_log);
 	Recorrido(arc_log);
-	close(arc_log); {se cierra el archivo abierto con rewrite}
 END.
