@@ -1,4 +1,4 @@
-program ej2;
+program ej;
 const
 	
 	
