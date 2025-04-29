@@ -1,0 +1,26 @@
+compactar
+corte de control
+merge
+lista invertida
+baja logica y fisica
+probar el trucate
+
+\
+
+repasar ejercicios de hashing
+
+//
+
+practica2:
+	ejer5
+	ejer7
+	ejer9
+	ejer11
+	ejer17
+	ejer18
+practica3:
+	ejer2
+	ejer4 y 5
+	ejer6
+	ejer8
+	
